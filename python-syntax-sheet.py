@@ -4,14 +4,14 @@
 
 
 #-------------------------------------
-#comment, single line, multiline
+# comment, single line, multiline
 #-------------------------------------
 # a hash creates a single line comment
 # there is no multiline comment on python. just use # on every line.
 
 
 #-------------------------------------
-#print
+# print
 #-------------------------------------
 
 # In Python 2, raw_input() returns a string, and input() tries to run the input as a Python expression.
@@ -24,8 +24,29 @@
 # from stock overflow user Sven Marnach
 
 
+#the correct way to print a string- 
+
+>>> print("Hello")
+Hello
+
+#is  Note; however, that is Python 2.X, you could also write:
+
+>>> print "Hello"
+Hello
 
 
+# ----- print blank line(s)--------
+# source http://thomas-cokelaer.info/tutorials/python/print.html
+
+Let us print 5 blank lines. You can naively type:
+
+print(5 * "\n")
+
+or:
+print("\n\n\n\n\n")
+
+or even better:
+print(5 * "\n")
 
 
 
