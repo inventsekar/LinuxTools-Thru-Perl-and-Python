@@ -19,3 +19,15 @@ print "---------------------------------\n";
 #while ($line1 =~ /\b\w+\b/g){ $nWords++; }
 print "line1 is:", line1;
 #print "\$line1 contains $nWords words\n";
+
+
+
+
+wordCount=0
+
+for lineOfText in range(1-3):
+
+    print(str(linei),str(lineOfText))
+    f1=lineOfText.split()
+    wordCount=wordCount+len(f1)
+    print ("number of words: wc -w:" +str(wordCount))
